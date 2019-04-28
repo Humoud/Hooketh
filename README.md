@@ -31,10 +31,10 @@ optional arguments:
                         the manifest file)
 
 # If you do not provide a method number the script will use "3" as a method number because that is the "init" method
-python3 hooker.py -c java.lang.String -p com.name1.name2.demo
+python3 hooketh.py -c java.lang.String -p com.name1.name2.demo
 
 # Make method 10 in the MainActivity return true
-python3 hooker.py -c com.name1.name2.demo.MainActivity -p com.name1.name2.demo -n 10 -t true
+python3 hooketh.py -c com.name1.name2.demo.MainActivity -p com.name1.name2.demo -n 10 -t true
 ```
 
-**Note** that once you provide a class name and a number to the `hooker.py` script it will list all the methods of the class and number them. After that you can provide a number listed to get what that methods returns. I always start with 3 because that is the initialisation method. 
+**Note** that once you provide a class name and a number to the `hooketh.py` script it will list all the methods of the class and number them. After that you can provide a number listed to get what that methods returns. I always start with 3 because that is the initialisation method. 
