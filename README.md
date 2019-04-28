@@ -2,7 +2,9 @@
 A set of scripts that ease working with Frida
 
 ## Usage
-For both of the scripts, I assume you have a device connected via USB.
+For both of the scripts, I assume you have a device connected via USB or have an emulator running on the same machine.
+
+Install frida on your machine and ensure that you have frida server running on your android device/emulator.
 
 ### Using Activity_Tracer.js
 You might have an apk file and you want to know what activities will run and in what sequence. In this case you can use `activity_tracer.js`:
