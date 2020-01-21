@@ -34,7 +34,7 @@ elif args.return_true == 2:
 jscode_enum = """
 Java.perform(function(){
     TARGET_METHOD=<ARG_METHOD_NUM>;
-	TARGET_CLASS='<ARG_CLASS_NAME>';
+	var TARGET_CLASS='<ARG_CLASS_NAME>';
 	
 	console.log('Listing all class memebers:');
 	var methods = Object.getOwnPropertyNames(Java.use(TARGET_CLASS).__proto__);
