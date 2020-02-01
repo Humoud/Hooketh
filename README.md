@@ -1,4 +1,4 @@
-# Frida-Tools
+# Hooketh
 A set of scripts that ease working with Frida
 
 ## Usage
