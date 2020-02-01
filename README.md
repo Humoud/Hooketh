@@ -1,5 +1,5 @@
 # Hooketh
-A set of scripts that ease working with Frida
+A set of scripts that ease working with Frida, tailored to help finding the correct function to hook to and then modify it.
 
 ## Usage
 For both of the scripts, I assume you have a device connected via USB or have an emulator running on the same machine.
